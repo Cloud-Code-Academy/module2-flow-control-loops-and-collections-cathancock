@@ -94,7 +94,7 @@ public with sharing class FlowControlLoopsCollections {
      * @return A string indicating whether the number is "Positive", "Negative", or "Zero", or null if the number is null.
      */
     public static String checkNumber(Integer a) {
-        if (a >= 0){
+        if (a > 0){
             return 'Positive';
         }
         if (a < 0){
